@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+**/target
+*.iml
+.scannerwork
+/examples/codegen-result
+/examples/sdk
+/sdk
+/examples/codegen-sdk
+/examples/swagger-3-client-maven-plugin/src/main/java
+/codegen-sdk
+*.flattened-pom.xml
+*/classpath
+.umi
+empty

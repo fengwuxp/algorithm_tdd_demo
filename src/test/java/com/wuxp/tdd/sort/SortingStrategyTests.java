@@ -47,6 +47,11 @@ class SortingStrategyTests {
         testSortByComparator(new QuickV3SortingStrategy<>(), new BubbleSortingStrategy<>());
     }
 
+    @Test
+    void testHeapSort(){
+        testSortByComparator(new HeapSortingStrategy<>(), new BubbleSortingStrategy<>());
+    }
+
     private static void testSortByComparator(SortingStrategy<Integer> strategy, SortingStrategy<Integer> comparator) {
         testSortByComparator(RandomUtil.randomInt(1, 10), strategy, comparator);
     }

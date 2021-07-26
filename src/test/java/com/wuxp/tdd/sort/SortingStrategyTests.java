@@ -69,6 +69,4 @@ class SortingStrategyTests {
             Assertions.assertArrayEquals(sources2, sources1);
         }
     }
-
-
 }

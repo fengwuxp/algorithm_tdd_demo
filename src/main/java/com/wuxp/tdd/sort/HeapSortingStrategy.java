@@ -39,7 +39,6 @@ public class HeapSortingStrategy<T extends Comparable<T>> extends AbstractSortin
             }
         }
 
-
         while (--heapSize >= 0) {
             swap(sources, 0, heapSize);
             internHeapify(sources, 0, heapSize, 1);
